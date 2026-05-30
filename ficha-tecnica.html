@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ficha Técnica — OVA Orígenes y Principios de la TGS</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Georgia', serif; color: #1a1a1a; background: #fff; font-size: 12pt; line-height: 1.6; }
+
+  .page { max-width: 210mm; margin: 0 auto; padding: 20mm 22mm; }
+
+  /* ENCABEZADO */
+  .header { display: flex; align-items: center; gap: 20px; border-bottom: 3px solid #1a3a5c; padding-bottom: 16px; margin-bottom: 24px; }
+  .header-logo { background: #1a3a5c; color: #f6ae2d; width: 60px; height: 60px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.4rem; font-weight: 900; flex-shrink: 0; }
+  .header-text h1 { font-size: 15pt; color: #1a3a5c; font-weight: 700; }
+  .header-text p { font-size: 10pt; color: #555; margin-top: 3px; }
+
+  .ficha-title { text-align: center; margin: 20px 0 28px; }
+  .ficha-title h2 { font-size: 18pt; color: #1a3a5c; text-transform: uppercase; letter-spacing: 2px; }
+  .ficha-title p { font-size: 10pt; color: #888; margin-top: 5px; }
+
+  /* TABLA PRINCIPAL */
+  table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+  td { padding: 10px 14px; border: 1px solid #c0c8d8; vertical-align: top; font-size: 10.5pt; }
+  td:first-child { background: #1a3a5c; color: #fff; font-weight: 700; width: 32%; font-size: 10pt; vertical-align: middle; }
+  tr:nth-child(even) td:last-child { background: #f7f9fc; }
+
+  /* SECCIONES */
+  .section { margin-bottom: 22px; }
+  .section-title { font-size: 12pt; font-weight: 700; color: #1a3a5c; border-left: 4px solid #f6ae2d; padding-left: 10px; margin-bottom: 10px; }
+
+  ul { padding-left: 18px; }
+  ul li { margin-bottom: 5px; font-size: 10.5pt; }
+
+  .obj-general { background: #f0f4f8; border-left: 4px solid #2e86ab; padding: 12px 15px; border-radius: 4px; font-size: 10.5pt; margin-bottom: 12px; }
+
+  .tools-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .tool-item { background: #f7f9fc; border: 1px solid #c0c8d8; border-radius: 4px; padding: 8px 12px; font-size: 10pt; }
+  .tool-item strong { color: #1a3a5c; display: block; font-size: 9pt; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 2px; }
+
+  .ref-list { list-style: none; padding: 0; }
+  .ref-list li { padding: 7px 0 7px 12px; border-left: 3px solid #f6ae2d; margin-bottom: 8px; font-size: 10pt; line-height: 1.5; }
+
+  .contenido-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .contenido-item { background: #f7f9fc; border: 1px solid #dde3ed; border-radius: 4px; padding: 6px 10px; font-size: 10pt; }
+  .contenido-item::before { content: '✓ '; color: #27ae60; font-weight: 700; }
+
+  /* FIRMA */
+  .firma { margin-top: 30px; display: flex; justify-content: space-between; align-items: flex-end; }
+  .firma-box { text-align: center; }
+  .firma-line { width: 200px; border-top: 1px solid #333; margin-bottom: 6px; }
+  .firma-label { font-size: 9pt; color: #555; }
+
+  .footer { margin-top: 30px; border-top: 1px solid #c0c8d8; padding-top: 10px; text-align: center; font-size: 8.5pt; color: #999; }
+
+  /* PRINT */
+  @media print {
+    body { font-size: 11pt; }
+    .page { padding: 15mm 18mm; }
+    .no-print { display: none; }
+  }
+
+  /* BOTÓN */
+  .print-btn { position: fixed; bottom: 25px; right: 25px; background: #1a3a5c; color: #f6ae2d; border: none; padding: 12px 22px; border-radius: 30px; font-size: 14px; font-weight: 700; cursor: pointer; box-shadow: 0 4px 15px rgba(0,0,0,.2); transition: all .3s; }
+  .print-btn:hover { background: #2e86ab; transform: translateY(-2px); }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <!-- ENCABEZADO -->
+  <div class="header">
+    <div class="header-logo">TGS</div>
+    <div class="header-text">
+      <h1>Universidad Simón Bolívar</h1>
+      <p>Facultad de Ingeniería · Asignatura: Teoría General de Sistemas · 2025</p>
+    </div>
+  </div>
+
+  <div class="ficha-title">
+    <h2>Ficha Técnica del Proyecto</h2>
+    <p>Objeto Virtual de Aprendizaje (OVA)</p>
+  </div>
+
+  <!-- TABLA DE IDENTIFICACIÓN -->
+  <div class="section">
+    <div class="section-title">Datos de Identificación</div>
+    <table>
+      <tr>
+        <td>Título del proyecto</td>
+        <td><strong>Orígenes y Principios de la Teoría General de Sistemas</strong></td>
+      </tr>
+      <tr>
+        <td>N° de proyecto</td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td>Autor</td>
+        <td><strong>Carlos David Gamboa Pino</strong></td>
+      </tr>
+      <tr>
+        <td>Programa académico</td>
+        <td>Ingeniería de Sistemas</td>
+      </tr>
+      <tr>
+        <td>Asignatura</td>
+        <td>Teoría General de Sistemas (TGS)</td>
+      </tr>
+      <tr>
+        <td>Institución</td>
+        <td>Universidad Simón Bolívar — Sede Cúcuta</td>
+      </tr>
+      <tr>
+        <td>Año de elaboración</td>
+        <td>2025</td>
+      </tr>
+      <tr>
+        <td>Formato de entrega</td>
+        <td>Página web (HTML5 + CSS3 + JavaScript)</td>
+      </tr>
+      <tr>
+        <td>Plataforma de publicación</td>
+        <td>GitHub Pages / Netlify / Vercel</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- OBJETIVOS -->
+  <div class="section">
+    <div class="section-title">Objetivos</div>
+    <p style="font-weight:700;font-size:10.5pt;margin-bottom:7px;color:#1a3a5c">Objetivo General</p>
+    <div class="obj-general">
+      Diseñar e implementar un Objeto Virtual de Aprendizaje (OVA) funcional, accesible y didáctica que permita comprender los orígenes históricos y los principios fundamentales de la Teoría General de Sistemas, fomentando el aprendizaje activo mediante contenidos interactivos.
+    </div>
+    <p style="font-weight:700;font-size:10.5pt;margin-bottom:8px;color:#1a3a5c">Objetivos Específicos</p>
+    <ul>
+      <li>Contextualizar el surgimiento de la TGS dentro del desarrollo histórico de la ciencia del siglo XX.</li>
+      <li>Explicar los principios fundamentales de la TGS (totalidad, equifinalidad, retroalimentación, entropía, negentropía, jerarquía, diferenciación, integración e isomorfismo) con ejemplos de casos reales.</li>
+      <li>Desarrollar contenidos interactivos —juegos de memoria, ordenamiento cronológico y quiz evaluativo— que fomenten el aprendizaje activo.</li>
+      <li>Presentar una línea de tiempo de los hitos más importantes en la historia de la TGS y sus principales exponentes.</li>
+      <li>Publicar la OVA en una plataforma web pública con navegación responsive adaptable a dispositivos móviles.</li>
+    </ul>
+  </div>
+
+  <!-- CONTENIDO DE LA OVA -->
+  <div class="section">
+    <div class="section-title">Contenido de la OVA</div>
+    <div class="contenido-grid">
+      <div class="contenido-item">Contextualización del tema</div>
+      <div class="contenido-item">Línea de tiempo histórica (1920s–1990s)</div>
+      <div class="contenido-item">9 principios fundamentales explicados</div>
+      <div class="contenido-item">Ejemplos prácticos (3 casos reales)</div>
+      <div class="contenido-item">3 videos relacionados al tema</div>
+      <div class="contenido-item">5 ejercicios con retroalimentación</div>
+      <div class="contenido-item">Juego de memoria (12 cartas)</div>
+      <div class="contenido-item">Juego de línea de tiempo (drag & drop)</div>
+      <div class="contenido-item">Quiz evaluativo (10 preguntas, 100 pts)</div>
+      <div class="contenido-item">Página de créditos y referencias APA</div>
+    </div>
+  </div>
+
+  <!-- HERRAMIENTAS -->
+  <div class="section">
+    <div class="section-title">Herramientas Utilizadas</div>
+    <div class="tools-grid">
+      <div class="tool-item"><strong>Desarrollo web</strong>HTML5, CSS3, JavaScript (vanilla)</div>
+      <div class="tool-item"><strong>IA generativa (código)</strong>Claude AI — Anthropic</div>
+      <div class="tool-item"><strong>Editor de código</strong>Visual Studio Code</div>
+      <div class="tool-item"><strong>Alojamiento web</strong>GitHub Pages / Netlify</div>
+      <div class="tool-item"><strong>Control de versiones</strong>Git / GitHub</div>
+      <div class="tool-item"><strong>Videos</strong>YouTube (videos curados)</div>
+    </div>
+  </div>
+
+  <!-- REFERENCIAS -->
+  <div class="section">
+    <div class="section-title">Referencias Bibliográficas</div>
+    <ul class="ref-list">
+      <li>Bertalanffy, L. von (1968). <em>General System Theory: Foundations, Development, Applications</em>. George Braziller, Nueva York, EE. UU.</li>
+      <li>Bertalanffy, L. von (1976). <em>Teoría General de los Sistemas: Fundamentos, Desarrollo, Aplicaciones</em>. Fondo de Cultura Económica, México.</li>
+      <li>Boulding, K. E. (1956). General Systems Theory: The Skeleton of Science. <em>Management Science</em>, 2(3), 197–208. https://doi.org/10.1287/mnsc.2.3.197</li>
+      <li>Johansen, O. (2004). <em>Introducción a la Teoría General de Sistemas</em>. Editorial Limusa, México.</li>
+      <li>Senge, P. (1990). <em>La Quinta Disciplina: El arte y la práctica de la organización abierta al aprendizaje</em>. Editorial Granica, Buenos Aires, Argentina.</li>
+    </ul>
+  </div>
+
+  <!-- FIRMA -->
+  <div class="firma">
+    <div class="firma-box">
+      <div class="firma-line"></div>
+      <div class="firma-label"><strong>Carlos David Gamboa Pino</strong><br>Autor del proyecto</div>
+    </div>
+    <div class="firma-box">
+      <div class="firma-line"></div>
+      <div class="firma-label"><strong>Docente de la asignatura</strong><br>Teoría General de Sistemas</div>
+    </div>
+    <div class="firma-box" style="text-align:right">
+      <div style="font-size:9pt;color:#888">Fecha de elaboración</div>
+      <div style="font-size:10pt;font-weight:700">Mayo 2025</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    Universidad Simón Bolívar · Ingeniería de Sistemas · Teoría General de Sistemas · 2025 · Carlos David Gamboa Pino
+  </div>
+</div>
+
+<button class="print-btn no-print" onclick="window.print()">🖨️ Guardar como PDF</button>
+
+</body>
+</html>
