@@ -1,7 +1,7 @@
 # OVA — Orígenes y Principios de la TGS
 
 **Objeto Virtual de Aprendizaje** desarrollado para la asignatura **Teoría General de Sistemas (TGS)**  
-Universidad Simón Bolívar · Proyecto N° 8 · 2025
+Universidad Simón Bolívar · Proyecto N° 8 · 2026
 
 ---
 
