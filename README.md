@@ -89,4 +89,4 @@ cd ova-tgs-origenes
 ## Licencia
 
 Este proyecto fue desarrollado con fines académicos para la Universidad Simón Bolívar.  
-© 2025 Carlos David Gamboa Pino
+© 2026 Carlos David Gamboa Pino
