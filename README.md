@@ -58,7 +58,7 @@ Diseñar e implementar un Objeto Virtual de Aprendizaje (OVA) funcional, accesib
 - **CSS3** — diseño visual y responsive
 - **JavaScript (vanilla)** — interactividad, juegos y quiz
 - **Claude AI (Anthropic)** — apoyo en la generación del código
-- **GitHub Pages / Netlify** — alojamiento web público
+- **GitHub Pages / Vercel** — alojamiento web público
 
 ---
 
